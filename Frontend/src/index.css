@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'heavyMsi';
+  src: url('../src/assets/fonts/Yekan-Bakh-FaNum-07-Heavy.eot') format('eot');
+  src : url('../src/assets/fonts/Yekan-Bakh-FaNum-07-Heavy.ttf') format('truetype'),
+  url('../src/assets/fonts/Yekan-Bakh-FaNum-07-Heavy.woff') format('woff');
+}
+
+body{
+  font-family:'heavyMsi' ;
+  direction: rtl;
+  text-align: right;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+  color: rgb(80, 179, 255);
+}
